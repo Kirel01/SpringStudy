@@ -1,0 +1,47 @@
+@charset "UTF-8";
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {		/* 밑줄 삭제 */
+	text-decoration: none;
+}
+
+ul {		/* 메뉴 줄 */
+	list-style-type: none;
+	height: 48px;
+	width: 100%;
+	background-color: orange;
+	display: flex;
+}
+
+ul > li {		/* 메뉴 이름 */
+	color : black;
+	height: 100%;
+	width: 90px;
+	display: flex;
+	align-items: center;
+}
+
+ul > li > a {		/* 메뉴 이름 */
+	color: black;
+	margin: auto;
+	padding: 10px;
+	font-size: 20px;
+	align-items: center;
+}
+
+ul > li > a:hover {			/* 밑줄 효과 */
+	color: white;
+	border-bottom: 3px solid rgb(209,209,209);
+}
+
+#logo {						/* 로고 */
+	color: white;
+	font-size: 18px;
+	padding-left: 40px;
+	margin-right: auto;
+	display: flex;
+}
